@@ -18,5 +18,5 @@ document.getElementById('btn').addEventListener(
       let vocal = vocals[index];
       toWork = toWork.split(vocal).join(vocal + 'p' + vocal);
     }
-    return toWork;
+   return toWork;
   }
